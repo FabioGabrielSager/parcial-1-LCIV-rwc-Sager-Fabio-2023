@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  rwc_api:
+    image: "rwc_api:1.0.0"
+    build: .
+    ports:
+      - 8080:8080
